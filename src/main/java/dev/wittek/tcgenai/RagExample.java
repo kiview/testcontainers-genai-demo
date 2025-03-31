@@ -71,6 +71,9 @@ public class RagExample {
         answer = assistant.chat("Under which License is this repository?");
         System.out.println(answer);
 
+        answer = assistant.chat("How is the logging configured?");
+        System.out.println(answer);
+
     }
 
     static interface Assistant {
